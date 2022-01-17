@@ -8,17 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		CE3B2F642795BE10005AED8A /* InstagramPageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3B2F632795BE10005AED8A /* InstagramPageApp.swift */; };
-		CE3B2F662795BE10005AED8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3B2F652795BE10005AED8A /* ContentView.swift */; };
 		CE3B2F682795BE10005AED8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3B2F672795BE10005AED8A /* Assets.xcassets */; };
 		CE3B2F6B2795BE10005AED8A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3B2F6A2795BE10005AED8A /* Preview Assets.xcassets */; };
+		CE3B2F752795BEA2005AED8A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3B2F742795BEA2005AED8A /* HomeView.swift */; };
+		CE3B2F772795BEF5005AED8A /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3B2F762795BEF5005AED8A /* SignIn.swift */; };
+		CE3B2F792795BF1F005AED8A /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3B2F782795BF1F005AED8A /* SignUp.swift */; };
+		CE3B2F7C2795BF6B005AED8A /* StartCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3B2F7B2795BF6B005AED8A /* StartCenter.swift */; };
+		CE3B2F7E2795BF9C005AED8A /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3B2F7D2795BF9C005AED8A /* Status.swift */; };
+		CE3B2F812795C0DA005AED8A /* AddStores.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3B2F802795C0DA005AED8A /* AddStores.swift */; };
+		CE3B2F832795C157005AED8A /* Stores.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3B2F822795C157005AED8A /* Stores.swift */; };
+		CE3B2F852795C191005AED8A /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3B2F842795C191005AED8A /* PostView.swift */; };
+		CE3B2F872795C1E7005AED8A /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3B2F862795C1E7005AED8A /* SettingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE3B2F602795BE10005AED8A /* InstagramPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3B2F632795BE10005AED8A /* InstagramPageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramPageApp.swift; sourceTree = "<group>"; };
-		CE3B2F652795BE10005AED8A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE3B2F672795BE10005AED8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE3B2F6A2795BE10005AED8A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE3B2F742795BEA2005AED8A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CE3B2F762795BEF5005AED8A /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		CE3B2F782795BF1F005AED8A /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		CE3B2F7B2795BF6B005AED8A /* StartCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartCenter.swift; sourceTree = "<group>"; };
+		CE3B2F7D2795BF9C005AED8A /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		CE3B2F802795C0DA005AED8A /* AddStores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStores.swift; sourceTree = "<group>"; };
+		CE3B2F822795C157005AED8A /* Stores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stores.swift; sourceTree = "<group>"; };
+		CE3B2F842795C191005AED8A /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		CE3B2F862795C1E7005AED8A /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +68,9 @@
 			isa = PBXGroup;
 			children = (
 				CE3B2F632795BE10005AED8A /* InstagramPageApp.swift */,
-				CE3B2F652795BE10005AED8A /* ContentView.swift */,
+				CE3B2F7A2795BF4E005AED8A /* ControlPage */,
+				CE3B2F732795BE6C005AED8A /* Screens */,
+				CE3B2F7F2795C0C0005AED8A /* Cells */,
 				CE3B2F672795BE10005AED8A /* Assets.xcassets */,
 				CE3B2F692795BE10005AED8A /* Preview Content */,
 			);
@@ -65,6 +83,36 @@
 				CE3B2F6A2795BE10005AED8A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE3B2F732795BE6C005AED8A /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				CE3B2F742795BEA2005AED8A /* HomeView.swift */,
+				CE3B2F762795BEF5005AED8A /* SignIn.swift */,
+				CE3B2F782795BF1F005AED8A /* SignUp.swift */,
+				CE3B2F862795C1E7005AED8A /* SettingView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		CE3B2F7A2795BF4E005AED8A /* ControlPage */ = {
+			isa = PBXGroup;
+			children = (
+				CE3B2F7B2795BF6B005AED8A /* StartCenter.swift */,
+				CE3B2F7D2795BF9C005AED8A /* Status.swift */,
+			);
+			path = ControlPage;
+			sourceTree = "<group>";
+		};
+		CE3B2F7F2795C0C0005AED8A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CE3B2F802795C0DA005AED8A /* AddStores.swift */,
+				CE3B2F822795C157005AED8A /* Stores.swift */,
+				CE3B2F842795C191005AED8A /* PostView.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +185,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE3B2F662795BE10005AED8A /* ContentView.swift in Sources */,
 				CE3B2F642795BE10005AED8A /* InstagramPageApp.swift in Sources */,
+				CE3B2F872795C1E7005AED8A /* SettingView.swift in Sources */,
+				CE3B2F792795BF1F005AED8A /* SignUp.swift in Sources */,
+				CE3B2F812795C0DA005AED8A /* AddStores.swift in Sources */,
+				CE3B2F7C2795BF6B005AED8A /* StartCenter.swift in Sources */,
+				CE3B2F772795BEF5005AED8A /* SignIn.swift in Sources */,
+				CE3B2F752795BEA2005AED8A /* HomeView.swift in Sources */,
+				CE3B2F7E2795BF9C005AED8A /* Status.swift in Sources */,
+				CE3B2F852795C191005AED8A /* PostView.swift in Sources */,
+				CE3B2F832795C157005AED8A /* Stores.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

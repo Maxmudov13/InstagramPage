@@ -11,7 +11,7 @@ import SwiftUI
 struct InstagramPageApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StartCenter().environmentObject(Status())
         }
     }
 }
